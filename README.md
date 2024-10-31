@@ -9,7 +9,9 @@ This project showcases a step-by-step approach to extracting data from a typical
 
 # Project Components
 
-## 1. MinIO: Acts as the primary storage layer for the lakehouse architecture.
+## 1. MinIO: 
+
+Acts as the primary storage layer for the lakehouse architecture.
 
 ### Functionality:
 
@@ -69,6 +71,7 @@ The extracted data is then ingested into MinIO, where it is stored as raw data.
 Apache Iceberg manages the metadata and schema of the data stored in MinIO.
 
 It ensures efficient data handling and enables users to perform complex queries without compromising performance.
+
 Catalog and Version Control:
 
 Project Nessie: It acts as the catalog for Iceberg tables, providing a structured view of available datasets.
